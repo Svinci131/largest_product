@@ -2,12 +2,41 @@
 <html>
 <head>
     <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
-    <title >multiples</title>
-    <link rel='stylesheet' href='styles/reset.css'>
+    <title>Counter and Die</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
     <link rel='stylesheet' href='styles/main.css'>
 </head>
 <body>
+	<br/>
+
+	<div class="ui grid container">
+		<div class="ten wide column">
+			
+			<div class="ui segment">
+				<span class="large-text js-count">25</span>
+				<button class='fluid ui button red js-decrease'>Decrease</button>
+				<br/>
+				<button class='fluid ui button green js-increase'>Increase</button>
+				<br/>
+				<button class='fluid ui button black js-reset'>Reset</button>
+			</div>
+
+		</div>
+		<div class="ten wide column">
+			
+			<div class="ui segment">
+				<span class="large-text js-die">--</span>
+				<button class='fluid ui button green js-roll'>Roll</button>
+				<br/>
+				<button class='fluid ui button black js-clear'>Clear</button>
+			</div>
+
+		</div>
+	</div>
+	<br/>
+
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
     <script src='javascript/main.js'></script>
 </body>
 </html>

@@ -1,1 +1,10 @@
 /* CURRENTLY IN: styles/main.css */
+
+
+.large-text {
+	font-size: 5rem;
+	display: block;
+	text-align: center;
+	margin: 20px;
+	padding-bottom: 20px;
+}
